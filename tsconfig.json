@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/api/hello.js", "src/pages/api/hello.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/api/hello.js", "src/pages/api/hello.js", "src/components/Hero/index.tsx", "src/components/Hero/index.tsx"],
   "exclude": ["node_modules"]
 }
