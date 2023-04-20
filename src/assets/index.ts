@@ -12,6 +12,8 @@ import nextjs from "./tech/nextjs.png";
 import scss from "./tech/scss.png";
 import mysql from "./tech/mysql.png";
 
+import wondro from "./frontpage/wondro.png";
+
 export {
   css,
   git,
@@ -26,4 +28,5 @@ export {
   nextjs,
   mysql,
   scss,
+  wondro,
 };

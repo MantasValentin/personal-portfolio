@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import {
   javascript,
   typescript,
@@ -7,14 +8,15 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
-  threejs,
   nextjs,
-  mysql,
-  scss,
 } from "../assets";
 
-const technologies = [
+interface Tech {
+  name: string;
+  icon: StaticImageData;
+}
+
+const technologies: Tech[] = [
   {
     name: "HTML 5",
     icon: html,
@@ -44,28 +46,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "MySQL",
-    icon: mysql,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "SCSS",
-    icon: scss,
-  },
-  {
-    name: "git",
-    icon: git,
   },
 ];
 
