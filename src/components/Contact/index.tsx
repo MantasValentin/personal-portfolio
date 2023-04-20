@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { formCredentials } from "../../constants/id";
 
 const Contact = () => {
   const refForm = useRef();
@@ -10,10 +9,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        formCredentials.serviceId,
-        formCredentials.templateId,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         refForm.current,
-        formCredentials.publicKey
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
