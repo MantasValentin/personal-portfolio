@@ -1,6 +1,7 @@
-import { useRef } from "react";
+import { Suspense, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Preload, Stars, PerspectiveCamera } from "@react-three/drei";
+import CanvasLoader from "../Loader";
 
 const StarPoints = (props) => {
   const ref = useRef<THREE.Mesh>(null!);
@@ -28,9 +29,11 @@ const StarsCanvas = () => {
   return (
     <div className="w-full h-auto absolute inset-0 z-[-1]">
       <Canvas>
-        <PerspectiveCamera makeDefault={true} position={[0, 0, 120]} />
-        <StarPoints />
-        <Preload all />
+        <Suspense fallback={<CanvasLoader />}>
+          <PerspectiveCamera makeDefault={true} position={[0, 0, 120]} />
+          <StarPoints />
+          <Preload all />
+        </Suspense>
       </Canvas>
     </div>
   );

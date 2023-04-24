@@ -9,6 +9,11 @@ import {
   nodejs,
   mongodb,
   nextjs,
+  mysql,
+  scss,
+  git,
+  threejs,
+  wondro,
 } from "../assets";
 
 interface Tech {
@@ -46,6 +51,14 @@ const technologies: Tech[] = [
     icon: nodejs,
   },
   {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -53,9 +66,34 @@ const technologies: Tech[] = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  {
+    name: "SCSS",
+    icon: scss,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
 ];
 
-const projects = [];
+const projects = [  {
+  name: "Wondro",
+  description:
+    "A fleshed-out e-commerce website with a minimalist design prioritizing an easy user experience, using Firebase for user authentication and data storage. Lacks administrator page to process orders and payment processing.",
+  tags: [
+    {
+      name: "nextjs",
+    },
+    {
+      name: "firebase",
+    },
+    {
+      name: "tailwind",
+    },
+  ],
+  image: wondro,
+  source_code_link: "https://github.com/MantasValentin/wondro",
+},];
 
 const experiences = [];
 

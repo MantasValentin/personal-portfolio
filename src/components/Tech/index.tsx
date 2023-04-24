@@ -1,6 +1,7 @@
 import { technologies } from "../../constants";
 import React from "react";
 import Image from "next/image";
+import BallCanvas from "./Ball";
 
 const Tech = () => {
   return (
@@ -11,13 +12,7 @@ const Tech = () => {
             className="flex items-center justify-center w-28 h-28"
             key={technology.name}
           >
-            <Image
-              src={technology.icon.src}
-              width={112}
-              height={112}
-              alt={technology.name}
-              className="rounded-full"
-            ></Image>
+            <BallCanvas icon={technology.icon} />
           </div>
         ))}
       </div>
