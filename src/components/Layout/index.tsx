@@ -13,6 +13,7 @@ const Layout = () => {
       <Navbar />
       <Hero />
       <About />
+      <Works />
       <Contact />
     </main>
   );

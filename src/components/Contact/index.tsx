@@ -30,8 +30,8 @@ const Contact = () => {
       className="flex justify-center w-full bg-primary py-20"
     >
       <div className="max-w-6xl px-8 text-center">
-        <h1 className="text-3xl text-secondary">Contact Me</h1>
-        <p className="text-xl max-sm:text-base py-2">
+        <h1 className="text-5xl font-semibold text-secondary">Contact Me</h1>
+        <p className="text-xl max-sm:text-base py-4">
           If you have requests or questions, don't hesitate to contact me using
           the form below.
         </p>

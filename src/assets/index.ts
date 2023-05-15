@@ -11,10 +11,13 @@ import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png";
 import scss from "./tech/scss.png";
 import mysql from "./tech/mysql.png";
+import github from "./github.png";
 
 import wondro from "./frontpage/wondro.png";
+import unregulated from "./frontpage/unregulated.png";
 
 export {
+  github,
   css,
   git,
   html,
@@ -29,4 +32,5 @@ export {
   mysql,
   scss,
   wondro,
+  unregulated,
 };

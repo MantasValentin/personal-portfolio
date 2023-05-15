@@ -51,10 +51,6 @@ const technologies: Tech[] = [
     icon: nodejs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "MySQL",
     icon: mysql,
   },
@@ -76,24 +72,27 @@ const technologies: Tech[] = [
   },
 ];
 
-const projects = [  {
-  name: "Wondro",
-  description:
-    "A fleshed-out e-commerce website with a minimalist design prioritizing an easy user experience, using Firebase for user authentication and data storage. Lacks administrator page to process orders and payment processing.",
-  tags: [
-    {
-      name: "nextjs",
-    },
-    {
-      name: "firebase",
-    },
-    {
-      name: "tailwind",
-    },
-  ],
-  image: wondro,
-  source_code_link: "https://github.com/MantasValentin/wondro",
-},];
+const projects = [
+  {
+    name: "Wondro",
+    description:
+      "A fleshed-out e-commerce website with a minimalist design prioritizing an easy user experience, using Firebase for user authentication and data storage. Lacks payment processing.",
+    tags: [
+      {
+        name: "nextjs",
+      },
+      {
+        name: "firebase",
+      },
+      {
+        name: "tailwind",
+      },
+    ],
+    image: wondro,
+    sourceCodeLink: "https://github.com/MantasValentin/wondro",
+    websiteLink: "https://wondro.vercel.app",
+  },
+];
 
 const experiences = [];
 

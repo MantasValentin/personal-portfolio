@@ -40,6 +40,15 @@ html,
 }
 
 #About {
-  background: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(5, 8, 22, 1) 100%);
+}
+
+#Contact {
+  background: linear-gradient(180deg, rgba(5, 8, 22, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.black-gradient {
+  background: linear-gradient(120deg,
+      #434343,
+      #000000);
 }

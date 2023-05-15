@@ -1,43 +1,44 @@
 import React, { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="flex fixed items-center w-full z-20 text-lg bg-primary/50 hover:bg-primary/100 transition text-white py-5 px-6">
-      <div className="flex flex-1 px-28 max-md:px-0">
+    <nav className="flex fixed items-center justify-center w-full z-20 text-lg bg-primary/50 hover:bg-primary/100 transition text-white py-5 px-6">
+      <div className="flex flex-1 max-w-7xl max-md:px-0">
         <div className="flex-1 flex gap-2">
           Mantas.dev
-          <a
+          <Link
             href="https://github.com/MantasValentin"
             target="_blank"
             className="flex items-center gap-4 hover:cursor-pointer"
           >
             <FaGithub className="text-xl button" />
-          </a>
+          </Link>
         </div>
         <ul className="flex flex-1 justify-end max-xs:hidden gap-4">
           <li className="button">
-            <a href="#Hero" className="">
+            <Link href="#Hero" className="">
               Home
-            </a>
+            </Link>
           </li>
           <li className="button">
-            <a href="#About" className="">
+            <Link href="#About" className="">
               About
-            </a>
+            </Link>
           </li>
           <li className="button">
-            <a href="#Projects" className="">
+            <Link href="#Projects" className="">
               Projects
-            </a>
+            </Link>
           </li>
           <li className="button">
-            <a href="#Contact" className="">
+            <Link href="#Contact" className="">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="xs:hidden flex flex-1 justify-end items-center">
@@ -52,24 +53,24 @@ const Navbar = () => {
           >
             <ul className="flex flex-1 justify-end items-start flex-col gap-4">
               <li className="button">
-                <a href="#Hero" className="">
+                <Link href="#Hero" className="">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="button">
-                <a href="#About" className="">
+                <Link href="#About" className="">
                   About
-                </a>
+                </Link>
               </li>
               <li className="button">
-                <a href="#Projects" className="">
+                <Link href="#Projects" className="">
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="button">
-                <a href="#Contact" className="">
+                <Link href="#Contact" className="">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
