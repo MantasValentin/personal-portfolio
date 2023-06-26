@@ -32,7 +32,6 @@ const StarsCanvas = () => {
         <Suspense fallback={<CanvasLoader />}>
           <PerspectiveCamera makeDefault={true} position={[0, 0, 120]} />
           <StarPoints />
-          <Preload all />
         </Suspense>
       </Canvas>
     </div>

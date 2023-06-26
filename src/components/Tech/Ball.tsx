@@ -49,7 +49,6 @@ const BallCanvas = ({ icon }) => {
         <Ball imgUrl={icon.src} />
       </Suspense>
 
-      <Preload all />
     </Canvas>
   );
 };

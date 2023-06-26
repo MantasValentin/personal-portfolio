@@ -14,6 +14,8 @@ import {
   git,
   threejs,
   wondro,
+  minesweeoer,
+  unregulated,
 } from "../assets";
 
 interface Tech {
@@ -74,23 +76,60 @@ const technologies: Tech[] = [
 
 const projects = [
   {
-    name: "Wondro",
+    name: "Unregulated",
     description:
-      "A fleshed-out e-commerce website with a minimalist design prioritizing an easy user experience, using Firebase for user authentication and data storage. Lacks payment processing.",
+      "Unregulated is a simplified Reddit-style social media site allowing users to form and manage groups, create posts with images, engage by giving feedback like commenting and liking",
     tags: [
       {
-        name: "nextjs",
+        name: "NextTS",
       },
       {
-        name: "firebase",
+        name: "Firebase",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
+      },
+    ],
+    image: unregulated,
+    sourceCodeLink: "https://github.com/MantasValentin/Unregulated",
+    websiteLink: "https://unregulated.vercel.app/",
+  },
+  {
+    name: "Wondro",
+    description:
+      "Wondro is a fleshed-out e-commerce website with a minimalist design prioritizing an easy user experience, using Firebase for user authentication and data storage. Lacks payment processing",
+    tags: [
+      {
+        name: "NextTS",
+      },
+      {
+        name: "Firebase",
+      },
+      {
+        name: "TailwindCSS",
       },
     ],
     image: wondro,
     sourceCodeLink: "https://github.com/MantasValentin/wondro",
     websiteLink: "https://wondro.vercel.app",
+  },
+  {
+    name: "Minesweeper",
+    description: "A replica of the old Minesweeper game with rankings",
+    tags: [
+      {
+        name: "ReactTS",
+      },
+      {
+        name: "Firebase",
+      },
+      {
+        name: "SCSS",
+      },
+    ],
+    image: minesweeoer,
+    sourceCodeLink: "https://github.com/MantasValentin/Minesweeper",
+    websiteLink: "https://minesweeper-29057.firebaseapp.com/",
   },
 ];
 

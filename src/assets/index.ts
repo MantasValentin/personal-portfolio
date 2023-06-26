@@ -15,6 +15,7 @@ import github from "./github.png";
 
 import wondro from "./frontpage/wondro.png";
 import unregulated from "./frontpage/unregulated.png";
+import minesweeoer from "./frontpage/minesweeper.png";
 
 export {
   github,
@@ -33,4 +34,5 @@ export {
   scss,
   wondro,
   unregulated,
+  minesweeoer,
 };

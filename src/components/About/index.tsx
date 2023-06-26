@@ -13,14 +13,14 @@ const About = () => {
           <p className="text-lg max-sm:text-base">
             As a web developer I bring a wealth of knowledge to the table with a
             focus on TypeScript, as well as experience in frameworks such as
-            React, Next.js, SCSS, TailwindCSS, and Node.js. My passion lies in
+            React, Next, SCSS, TailwindCSS, and Node. My passion lies in
             designing and maintaining responsive websites that offer seamless
             user experiences, and I take pride in crafting clean, engaging
             interfaces through optimized, reusable code. With my ability to
             create and utilize REST APIs and work with popular databases like
             MySQL and MongoDB, I offer a versatile skill set that can adapt to
             any project. As a quick learner and a team player who doesn't fear
-            trying new things and asking for help, I thrive in group
+            pushing himself and asking for help, I thrive in group
             environments where I can learn from others and receive valuable
             feedback on my work.
           </p>

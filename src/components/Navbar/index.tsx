@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex-1 flex gap-2">
           Mantas.dev
           <Link
-            href="https://github.com/MantasValentin"
+            href="https://github.com/MantasValentin/3d-personal-portfolio"
             target="_blank"
             className="flex items-center gap-4 hover:cursor-pointer"
           >

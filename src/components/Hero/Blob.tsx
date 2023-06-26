@@ -22,7 +22,6 @@ const Blob: React.FC = () => {
             <MeshDistortMaterial color={0xff00ff} speed={3} />
           </Sphere>
         </mesh>
-        <Preload all />
       </Suspense>
     </Canvas>
   );

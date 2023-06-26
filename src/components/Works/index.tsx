@@ -96,9 +96,9 @@ const Works: React.FC = () => {
         <h2 className="text-5xl font-semibold text-secondary">Projects</h2>
 
         <div className="text-lg max-w-3xl">
-          My skills and experience are showcased through real-world project
-          examples, including links to code repositories, and live demos,
-          highlighting my ability to handle complex problems and multiple
+          My skills and experience are showcased through real-world examples,
+          including links to code repositories, and live demos, highlighting my
+          ability to handle complex problems and work with multiple
           technologies.
         </div>
 
