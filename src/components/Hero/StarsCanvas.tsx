@@ -7,7 +7,7 @@ const StarPoints = (props) => {
   const ref = useRef<THREE.Mesh>(null!);
 
   useFrame((state, delta) => {
-    ref.current.rotation.x -= delta / 10;
+    ref.current.rotation.x -= delta / 5;
     ref.current.rotation.y -= delta / 15;
   });
 
@@ -17,9 +17,9 @@ const StarPoints = (props) => {
         ref={ref}
         {...props}
         fade={true}
-        count={1000}
-        radius={1}
-        factor={2}
+        count={500}
+        radius={2}
+        factor={3}
       ></Stars>
     </group>
   );

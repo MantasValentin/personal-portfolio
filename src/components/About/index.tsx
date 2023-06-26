@@ -20,7 +20,7 @@ const About = () => {
             create and utilize REST APIs and work with popular databases like
             MySQL and MongoDB, I offer a versatile skill set that can adapt to
             any project. As a quick learner and a team player who doesn't fear
-            pushing himself and asking for help, I thrive in group
+            pushing himself or asking for help, I thrive in group
             environments where I can learn from others and receive valuable
             feedback on my work.
           </p>
