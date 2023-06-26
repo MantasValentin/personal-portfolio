@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex flex-col gap-y-4 items-center text-center px-8 py-10 max-w-6xl">
           <h2 className="text-5xl font-semibold text-secondary">About Me</h2>
           <h3 className="text-2xl max-sm:text-lg font-bold">
-            Beginner front-end developer located in Lithuania
+            Front-end developer located in Lithuania
           </h3>
           <p className="text-lg max-sm:text-base">
             As a web developer I bring a wealth of knowledge to the table with a
