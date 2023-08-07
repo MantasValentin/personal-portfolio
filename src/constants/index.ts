@@ -16,6 +16,10 @@ import {
   wondro,
   minesweeoer,
   unregulated,
+  postgresql,
+  redis,
+  graphql,
+  docker,
 } from "../assets";
 
 interface Tech {
@@ -59,6 +63,22 @@ const technologies: Tech[] = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  // {
+  //   name: "PostgreSQL",
+  //   icon: postgresql,
+  // },
+  // {
+  //   name: "Redis",
+  //   icon: redis,
+  // },
+  // {
+  //   name: "GraphqQL",
+  //   icon: graphql,
+  // },
+  {
+    name: "Docker",
+    icon: docker,
   },
   {
     name: "Tailwind CSS",

@@ -12,6 +12,10 @@ import nextjs from "./tech/nextjs.png";
 import scss from "./tech/scss.png";
 import mysql from "./tech/mysql.png";
 import github from "./github.png";
+import docker from "./tech/docker.png";
+import graphql from "./tech/graphql.png";
+import postgresql from "./tech/postgresql.png";
+import redis from "./tech/redis.png";
 
 import wondro from "./frontpage/wondro.png";
 import unregulated from "./frontpage/unregulated.png";
@@ -35,4 +39,8 @@ export {
   wondro,
   unregulated,
   minesweeoer,
+  docker,
+  graphql,
+  postgresql,
+  redis,
 };

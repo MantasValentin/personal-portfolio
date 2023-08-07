@@ -48,7 +48,6 @@ const BallCanvas = ({ icon }) => {
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon.src} />
       </Suspense>
-
     </Canvas>
   );
 };
