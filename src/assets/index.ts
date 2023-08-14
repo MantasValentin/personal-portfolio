@@ -11,7 +11,7 @@ import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.webp";
 import scss from "./tech/scss.webp";
 import mysql from "./tech/mysql.webp";
-import github from "./github.webp";
+import github from "./github.png";
 import docker from "./tech/docker.webp";
 import graphql from "./tech/graphql.webp";
 import postgresql from "./tech/postgresql.webp";
