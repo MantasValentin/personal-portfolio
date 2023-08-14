@@ -21,7 +21,7 @@ const About = () => {
             Redis for data caching and Docker for streamlined deployment. As a
             quick learner and team player, I thrive in collaborative
             environments and value receiving feedback to improve and adapt to
-            any project's requirements continuously.
+            any project&apos;s requirements continuously.
           </p>
         </div>
       </div>
