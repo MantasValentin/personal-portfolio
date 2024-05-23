@@ -36,18 +36,18 @@ const technologies: Tech[] = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "TypeScript",
     icon: typescript,
   },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
+  // {
+  //   name: "React JS",
+  //   icon: reactjs,
+  // },
   {
     name: "Next JS",
     icon: nextjs,
@@ -84,14 +84,14 @@ const technologies: Tech[] = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "SCSS",
-    icon: scss,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //   name: "SCSS",
+  //   icon: scss,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
 ];
 
 const projects = [
