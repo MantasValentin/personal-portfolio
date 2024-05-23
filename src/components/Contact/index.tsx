@@ -28,6 +28,7 @@ const Contact = () => {
     <section
       id="Contact"
       className="flex justify-center w-full bg-primary py-20"
+      data-testid="contact"
     >
       <div className="max-w-6xl px-8 text-center">
         <h1 className="text-5xl font-semibold text-secondary">Contact Me</h1>

@@ -1,14 +1,17 @@
-name: Run tests
+name: Tests
+
+run-name: "testing ${{github.ref_name}}"
 
 on: 
   push:
 
 jobs: 
   test: 
-    name: "${{github.ref_name}} testing"
+    name: "${{github.ref_name}} test"
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v3
       - run: npm ci
       - run: npm run lint
+      - run: npm run test
       - run: npm run build
